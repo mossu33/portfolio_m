@@ -436,7 +436,14 @@ footer {
     transform: rotate(90deg);
   }
 
-   a{
+   .link a{
+    padding: 2px;
+    color: white;
+    background: none;
+    box-shadow: none;
+   }
+
+   .fppter-links a{
     padding: 2px;
     color: white;
     background: none;
@@ -444,8 +451,11 @@ footer {
    }
 
    .link a:hover{
-    box-shadow: 8px 8px 20px rgb(160 160 160 / 20%), -8px -8px 20px #fff, inset 4px 4px 10px rgb(160 160 160 / 20%), inset -4px -4px 10px #fff;
+    box-shadow: none;
+    /* box-shadow: 8px 8px 20px rgb(160 160 160 / 20%), -8px -8px 20px #fff, inset 4px 4px 10px rgb(160 160 160 / 20%), inset -4px -4px 10px #fff; */
     transition: .6s cubic-bezier(.16,.5,.43,1);
+    color: rgba(234, 245, 34, 0.723);
+    ;
     opacity: 0.7;
   }
 
