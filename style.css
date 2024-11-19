@@ -24,8 +24,8 @@ header{
 }
 
 .headerlogo{
-  padding: 12px 0 0 16px ;
-
+  padding: 12px 0 0 24px ;
+  opacity: 0.8;
 
 }
 
@@ -329,6 +329,7 @@ footer {
 
 .footer-logo img {
   margin-right: 10px;
+  opacity: 0.7;
 }
 
 .footer-logo p {
@@ -482,7 +483,6 @@ footer {
     box-shadow: none;
     transition: .6s cubic-bezier(.16,.5,.43,1);
     color: rgba(234, 245, 34, 0.723);
-    ;
     opacity: 0.7;
   }
 
