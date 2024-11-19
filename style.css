@@ -12,6 +12,7 @@ body{
 .bg-image{
   background-image: url(bg4.jpg);
   background-size: cover;
+
 }
 
 
@@ -51,7 +52,9 @@ header{
 .link a:hover{
   box-shadow: 8px 8px 20px rgb(160 160 160 / 20%), -8px -8px 20px #fff, inset 4px 4px 10px rgb(160 160 160 / 20%), inset -4px -4px 10px #fff;
   transition: .6s cubic-bezier(.16,.5,.43,1);
+
 }
+
 .menuicon{
   padding: 16px 16px 0 0 ;
   display: none;
@@ -93,7 +96,6 @@ main p{
   padding-bottom: 12px;
   margin-bottom:clamp(20px,calc(6vw + 20px),80px);
   margin-top: clamp(10px,calc(8vw + 10px),120px);
-
   font-family: 'ヒラギノ角ゴ Pro';
 
 }
@@ -165,18 +167,21 @@ section{
   /* top: 100px; */
   top:60px;
   left: 80px;
+
 }
 
 .top-right {
   /* top: 100px; */
   top:60px;
   right: 80px;
+
 }
 
 .bottom-left {
   /* bottom: 100px; */
   bottom:60px;
   left: 80px;
+
 }
 
 .bottom-right {
@@ -189,17 +194,21 @@ section{
   transform: translate(-50px, -50px) rotate(345deg)  ;
   opacity: 1;
   animation: infinite;
+
 }
 
 .animate .top-right {
   transform: translate(50px, -50px) rotate(-345deg);
   opacity: 1;
+
 }
 
 .animate .bottom-left {
   transform: translate(-50px, 50px) rotate(-345deg);
   opacity: 1;
+
 }
+
 
 .animate .bottom-right {
   transform: translate(50px, 50px) rotate(345deg);
@@ -262,19 +271,25 @@ h3{
 
 
 .message p{
+
   text-align: left;
   margin-left: 60px;
   font-size: 16px;
+  margin-right: 12px;
+
 }
 
 .syoukaimain p{
+
   font-size: 20px;
+
 }
 
 li{
   text-align: left;
   font-size: 16px;
   margin-left: 18px;
+  margin-right: 12px;
 }
 
 .strengmain h3{
@@ -423,6 +438,10 @@ footer {
 }
 
  .box p{
+  margin-right: 12px;
+ }
+
+ .box li{
   margin-right: 12px;
  }
 }
