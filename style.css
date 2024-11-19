@@ -1,8 +1,10 @@
 
+
+
 body{
   margin: 0 auto;
   font-family: "Yu Gothic Medium", YuGothic, sans-serif;
-  max-width: 1350px;
+  max-width: 1920px;
 
 }
 
@@ -74,13 +76,14 @@ main img{
 object-fit: contain;
 width: 60vw;
 max-width: 100%;
+max-height: 600px;
 
 }
 
 main p{
-  width: clamp(50px,calc(30vw + 50px),440px);
+  width: clamp(50px,calc(30vw + 50px),500px);
   font-weight: bold;
-  font-size: clamp(20px,calc(5vw + 20px),96px );
+  font-size: clamp(20px,calc(5vw + 20px),120px );
   color: rgba(0, 0, 0, 0.750);
   transform: rotate(-90deg);
   border-left: solid rgba(0, 0, 0, 0.745) ;
@@ -90,6 +93,7 @@ main p{
   padding-bottom: 12px;
   margin-bottom:clamp(20px,calc(6vw + 20px),80px);
   margin-top: clamp(10px,calc(8vw + 10px),120px);
+
   font-family: 'ヒラギノ角ゴ Pro';
 
 }
@@ -298,7 +302,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1350px;
   margin: 0 auto;
 }
 
@@ -349,7 +353,13 @@ footer {
   margin: 0;
 }
 
+@media(min-width: 1650px){
+  main p{
+  /* margin-left : clamp(0px,calc(5vw + 50px),500px); */
+  margin-bottom:120px;
+  }
 
+}
 
 @media (max-width: 900px) {
   .footer-content {
