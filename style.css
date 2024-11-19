@@ -24,7 +24,7 @@ header{
 }
 
 .headerlogo{
-  padding: 8px 0 0 16px ;
+  padding: 12px 0 0 16px ;
 
 
 }
@@ -453,7 +453,6 @@ footer {
 @media(max-width:650px){
 
 
-
   .menuicon{
     display: inline-block;
     transition: transform 0.5s ease;
@@ -481,7 +480,6 @@ footer {
 
    .link a:hover{
     box-shadow: none;
-    /* box-shadow: 8px 8px 20px rgb(160 160 160 / 20%), -8px -8px 20px #fff, inset 4px 4px 10px rgb(160 160 160 / 20%), inset -4px -4px 10px #fff; */
     transition: .6s cubic-bezier(.16,.5,.43,1);
     color: rgba(234, 245, 34, 0.723);
     ;
